@@ -17,6 +17,11 @@ OR CITY LIKE 'U%';
 SELECT DISTINCT CITY FROM STATION
 WHERE CITY REGEXP '^[aeiou]';
 
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
 -- REGEXP/RLIKE: Regular expression pattern matches
 |Pattern | What the pattern matches |
 |--- | --- |
